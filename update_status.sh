@@ -1,5 +1,5 @@
 #!/bin/bash
-SLACKAPIKEY=`osascript -e 'set T to text returned of (display dialog "Enter your Slack OAuth API key" buttons {"Cancel", "OK"} default button "OK" default answer "" with hidden answer)'`
+SLACKAPIKEY=`osascript -e 'set T to text returned of (display dialog "Enter your Slack Access Token" buttons {"Cancel", "OK"} default button "OK" default answer "" with hidden answer)'`
 
 # Set  wifi SSIDs
 MYWORKSSID=`osascript -e 'set T to text returned of (display dialog "What is the SSID (name) of your office Wifi?" buttons {"Cancel", "OK"} default button "OK" default answer "WeWork")'`
